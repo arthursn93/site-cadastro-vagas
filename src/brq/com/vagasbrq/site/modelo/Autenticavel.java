@@ -1,3 +1,4 @@
+package brq.com.vagasbrq.site.modelo;
 
 public abstract interface Autenticavel {
 	// passa definição de senha

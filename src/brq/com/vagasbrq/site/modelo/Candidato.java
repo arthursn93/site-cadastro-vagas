@@ -1,3 +1,4 @@
+package brq.com.vagasbrq.site.modelo;
 import java.util.ArrayList;
 
 public class Candidato extends Usuario implements Autenticavel {
@@ -6,7 +7,7 @@ public class Candidato extends Usuario implements Autenticavel {
 	
 	private Login login;
 	
-	public Candidato(int cpf, String profissao) {
+	public Candidato(String cpf, String profissao) {
 		super(cpf, profissao);
 		this.login = new Login();
 	}

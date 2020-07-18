@@ -1,9 +1,10 @@
+package brq.com.vagasbrq.site.modelo;
 
 public class Recrutador extends Usuario {
 	
 	private String empresa;
 	
-	public Recrutador(int cpf, String profissao) {
+	public Recrutador(String cpf, String profissao) {
 		super(cpf, profissao);
 	}
 

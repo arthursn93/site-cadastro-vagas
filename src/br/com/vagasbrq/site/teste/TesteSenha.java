@@ -1,16 +1,20 @@
+package br.com.vagasbrq.site.teste;
 
-public class siteTeste {
+import brq.com.vagasbrq.site.modelo.Candidato;
+import brq.com.vagasbrq.site.modelo.SistemaInterno;
+
+public class TesteSenha {
 
 	public static void main(String[] args) {
 		
 		SistemaInterno si = new SistemaInterno();
-		Candidato usuario = new Candidato(23242423, "Designer");
+		Candidato usuario = new Candidato("333.333.333-33", "Designer");
 		usuario.setSenha(121);
 		si.autentica(usuario);
 		
-//		Usuario f = new Usuario(1233333,"Jorge");
-//		Recrutador r = new Recrutador(3232323,"Marina");
-//		Candidato c = new Candidato(5456456,"Esmeralda");
+//		Usuario f = new Usuario("332.222.222-22","Jorge");
+//		Recrutador r = new Recrutador("111.111.111-11","Marina");
+//		Candidato c = new Candidato("55.555.555-55","Esmeralda");
 //		
 //		f.setProfissao("Programador");
 //		r.setEmpresa("BRQ");

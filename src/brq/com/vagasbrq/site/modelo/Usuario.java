@@ -1,11 +1,12 @@
+package brq.com.vagasbrq.site.modelo;
 
 public abstract class Usuario{
 	private String nome;
 	private String profissao;
 	private double salario;
-	private int cpf;
+	private String cpf;
 	
-	public Usuario(int cpf, String profissao) {
+	public Usuario(String cpf, String profissao) {
 		this.cpf = cpf;
 		this.profissao = profissao;
 	}
@@ -28,10 +29,10 @@ public abstract class Usuario{
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-	public int getCpf() {
+	public String getCpf() {
 		return cpf;
 	}
-	public void setCpf(int cpf) {
+	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}	
 }

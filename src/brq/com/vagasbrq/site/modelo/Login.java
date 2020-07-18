@@ -1,3 +1,4 @@
+package brq.com.vagasbrq.site.modelo;
 
 public class Login implements Autenticavel {
 	
